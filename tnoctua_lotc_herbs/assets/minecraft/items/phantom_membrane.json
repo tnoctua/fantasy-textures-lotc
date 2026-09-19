@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "tythan:vortex_alchemy_registry": "alchemy_helviiryn_mushroom",
+            "tythan:vortexregistry": "helviiryn_mushroom",
+            "tythan:vortex_version": "2"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "tnoctua:item/lotc/helviiryn_mushroom"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/phantom_membrane"
+    }
+  }
+}

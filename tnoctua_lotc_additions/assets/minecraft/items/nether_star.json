@@ -1,0 +1,35 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "tythan:soulstone": ""
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "tnoctua:item/lotc/soulstone"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "tythan:soulstone": "2"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "tnoctua:item/lotc/greater_soulstone"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/nether_star"
+    }
+  }
+}

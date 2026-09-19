@@ -1,0 +1,28 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": {
+          "text": "Veil of the Wandering Star",
+          "color": "red",
+          "bold": false,
+          "italic": true,
+          "obfuscated": false,
+          "strikethrough": false,
+          "underlined": false
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "tnoctua:item/lotc/bowie_camouflage"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/leather"
+    }
+  }
+}

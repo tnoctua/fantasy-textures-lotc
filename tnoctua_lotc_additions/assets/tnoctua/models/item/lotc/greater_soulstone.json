@@ -1,0 +1,7 @@
+{
+  "parent": "tnoctua:item/lotc/soulstone",
+  "textures": {
+    "tex": "tnoctua:item/lotc/greater_soulstone_bb",
+    "particle": "tnoctua:item/lotc/greater_soulstone_bb"
+  }
+}

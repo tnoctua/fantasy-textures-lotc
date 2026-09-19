@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "tythan:vortex_alchemy_registry": "alchemy_corrospore",
+            "tythan:vortexregistry": "corrospore",
+            "tythan:vortex_version": "2"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "tnoctua:item/lotc/corrospore"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/leaf_litter"
+    }
+  }
+}

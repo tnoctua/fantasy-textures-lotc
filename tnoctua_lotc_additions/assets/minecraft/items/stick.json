@@ -1,0 +1,25 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "tythan:hooked_tool":"fishing_net",
+            "tythan:signed-uuid":"fishing_item"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "tnoctua:item/lotc/fishing_net"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/stick"
+    }
+  }
+}

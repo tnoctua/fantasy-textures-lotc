@@ -1,0 +1,226 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": {
+          "text": "Regional Flora of Norland",
+          "color": "yellow",
+          "bold": false,
+          "italic": true,
+          "underlined": false
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "tnoctua:item/lotc/herb_book"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": {
+            "text": "Complete Essential Oils",
+            "color": "dark_red",
+            "bold": false,
+            "italic": false,
+            "underlined": false
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "tnoctua:item/lotc/alchemy_book"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+          {
+            "when": {
+              "text": "Compendium of Random Alchemicals",
+              "color": "dark_red",
+              "bold": false,
+              "italic": false,
+              "underlined": false
+            },
+            "model": {
+              "type": "minecraft:model",
+              "model": "tnoctua:item/lotc/alchemy_book"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:custom_name",
+          "cases": [
+            {
+              "when": {
+                "text": "Complete Alteration Alchemy",
+                "color": "dark_red",
+                "bold": false,
+                "italic": false,
+                "underlined": false
+              },
+              "model": {
+                "type": "minecraft:model",
+                "model": "tnoctua:item/lotc/alchemy_book"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:component",
+            "component": "minecraft:custom_name",
+            "cases": [
+              {
+                "when": {
+                  "text": "",
+                  "extra": [
+                    {
+                      "text": "Haense Medical Examination Guide",
+                      "color": "yellow",
+                      "bold": false,
+                      "italic": true,
+                      "obfuscated": false,
+                      "strikethrough": false,
+                      "underlined": false
+                    }
+                  ]
+                },
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "tnoctua:item/lotc/medical_book"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:select",
+              "property": "minecraft:component",
+              "component": "minecraft:custom_name",
+              "cases": [
+                {
+                  "when": "§b§o§d§o§o─ ⊹ ⊱ ☆ The Herbal Compendium Part I ☆ ⊰ ⊹ ─",
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "tnoctua:item/lotc/herb_book"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:select",
+                "property": "minecraft:component",
+                "component": "minecraft:custom_name",
+                "cases": [
+                  {
+                    "when": "§5§o§2§o§2§o§o─ ⊹ ⊱ ☆ The Herbal Compendium Part II ☆ ⊰ ⊹ ─",
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "tnoctua:item/lotc/herb_book"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:select",
+                  "property": "minecraft:component",
+                  "component": "minecraft:custom_name",
+                  "cases": [
+                    {
+                      "when": {
+                        "text": "»✧« The Dawn-Rose Redemption »✧«",
+                        "color": "red",
+                        "bold": false,
+                        "italic": true,
+                        "obfuscated": false,
+                        "strikethrough": false,
+                        "underlined": false
+                      },
+                      "model": {
+                        "type": "minecraft:model",
+                        "model": "tnoctua:item/lotc/medical_book"
+                      }
+                    }
+                  ],
+                  "fallback": {
+                    "type": "minecraft:select",
+                    "property": "minecraft:component",
+                    "component": "minecraft:custom_name",
+                    "cases": [
+                      {
+                        "when": "§b§o§oLunarite Smithing",
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "tnoctua:item/lotc/smith_book"
+                        }
+                      }
+                    ],
+                    "fallback": {
+                      "type": "minecraft:select",
+                      "property": "minecraft:component",
+                      "component": "minecraft:custom_name",
+                      "cases": [
+                        {
+                          "when": {
+                            "text": "The Art of Smithing:",
+                            "color": "aqua",
+                            "bold": false,
+                            "italic": true,
+                            "obfuscated": false,
+                            "strikethrough": false,
+                            "underlined": false
+                          },
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tnoctua:item/lotc/smith_book"
+                          }
+                        }
+                      ],
+                      "fallback": {
+                        "type": "minecraft:select",
+                        "property": "minecraft:component",
+                        "component": "minecraft:custom_name",
+                        "cases": [
+                          {
+                            "when": {
+                              "text": "",
+                              "extra": [
+                                {
+                                  "text": "A Compilation of Medical Herbs",
+                                  "color": "yellow",
+                                  "bold": false,
+                                  "italic": true,
+                                  "obfuscated": false,
+                                  "strikethrough": false,
+                                  "underlined": false
+                                }
+                              ]
+                            },
+                            "model": {
+                              "type": "minecraft:model",
+                              "model": "tnoctua:item/lotc/herb_book"
+                            }
+                          }
+                        ],
+                        "fallback": {
+                          "type": "minecraft:model",
+                          "model": "minecraft:item/written_book"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

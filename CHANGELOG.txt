@@ -1,0 +1,194 @@
+  _   _ _       _   _ _       _       _____           _                  
+ | \ | ( )___  | | | (_) __ _| |__   |  ___|_ _ _ __ | |_ __ _ ___ _   _ 
+ |  \| |// __| | |_| | |/ _` | '_ \  | |_ / _` | '_ \| __/ _` / __| | | |
+ | |\  | \__ \ |  _  | | (_| | | | | |  _| (_| | | | | || (_| \__ \ |_| |
+ |_| \_| |___/ |_| |_|_|\__, |_| |_| |_|  \__,_|_| |_|\__\__,_|___/\__, |
+     _       _     _    |___/__            _     ___ _____ ____    |___/ 
+    / \   __| | __| |      / _ \ _ __  _  | |   / _ \_   _/ ___|         
+   / _ \ / _` |/ _` |_____| | | | '_ \(_) | |  | | | || || |             
+  / ___ \ (_| | (_| |_____| |_| | | | |_  | |__| |_| || || |___          
+ /_/   \_\__,_|\__,_|      \___/|_| |_(_) |_____\___/ |_| \____|         
+                                                                         
+===============================================================
+  N's High Fantasy - LOTC Add-On		Version: 1.0     
+===============================================================
+	+ Added
+	~ Modified
+	- Removed
+===============================================================
+
+1.0
+===============================================================
+	Additions
+	-----------------------------------------------------------
+	  + Alchemist Shears
+	  + Aurum Herbal Knife
+	  + Bolt Cutters
+	  + Book: A Compilation of Medical Herbs
+	  + Book: Compendium of Random Alchemicals
+	  + Book: Complete Alteration Alchemy
+	  + Book: Complete Essential Oils
+	  + Book: Haense Medical Examination Guide
+	  + Book: Lunarite Smithing
+	  + Book: Regional Flora of Norland
+	  + Book: The Art of Smithing
+	  + Book: The Dawn-Rose Redemption
+	  + Book: The Herbal Compendium Part I
+	  + Book: The Herbal Compendium Part II
+	  + Emberglow Goggles
+	  + Fishing Net
+	  + Great Axe (Model Target Only)
+	  + Greater Soulstone
+	  + Javelin (Model Target Only)
+	  + Junk Bag
+	  + Kindlefen Mantle
+	  + Kindlefen Poultice
+	  + Lockpick
+	  + Longbow (Model Target Only)
+	  + Longsword (Model Target Only)
+	  + Mooncat Goggles
+	  + Note
+	  + Pike (Model Target Only)
+	  + Shortbow (Model Target Only)
+	  + Skin Ticket: Ashen Youth
+	  + Skin Ticket: Green Forest Silk
+	  + Skin Ticket: Idyll
+	  + Skin Ticket: Mulberry Wine
+	  + Skin Ticket: Rosalian Silks
+	  + Skin Ticket: Shepard Blue
+	  + Skinning Knife
+	  + Soulstone
+	  + Starweave Sight Goggles
+	  + Veil of the Wandering Star
+	Herbs
+	-----------------------------------------------------------
+	  + Aqua Nymph
+	  + Athin
+	  + Beardweed
+	  + Bitter Reed
+	  + Blissfoil
+	  + Blisterthorn
+	  + Corrospore
+	  + Diddyfunkle
+	  + Drake's Tail
+	  + Elf's Hair Vine
+	  + Gelunite
+	  + Gislocinovi
+	  + Jailor's Moss
+	  + Kindlefen
+	  + King's Ivy
+	  + Mandragora
+	  + Nightglow
+	  + Paddfoot
+	  + Ponderlot
+	  + Tippen's Root
+	Language
+	-----------------------------------------------------------
+	  + alpine/goldleaf_woods
+	  + alpine/mountain
+	  + alpine/northeast_valley
+	  + alpine/northeast_valley_lower
+	  + alpine/northwest_valley
+	  + alpine/southeast_valley
+	  + alpine/southeast_valley_mountain
+	  + alpine/southwest_valley
+	  + alpine/summit
+	  + autumn/gold
+	  + autumn/orange
+	  + autumn/red
+	  + autumn/rorange
+	  + autumn/rust
+	  + autumn_hills/gold
+	  + autumn_hills/orange
+	  + autumn_hills/red
+	  + autumn_hills/rorange
+	  + autumn_hills/rust
+	  + autumn_hills/shroomgrove_gold
+	  + autumn_hills/shroomgrove_orange
+	  + autumn_hills/shroomgrove_red
+	  + autumn_hills/shroomgrove_rorange
+	  + autumn_hills/shroomgrove_rust
+	  + autumn_meadows/gold
+	  + autumn_meadows/orange
+	  + autumn_meadows/red
+	  + autumn_meadows/rorange
+	  + autumn_meadows/rust
+	  + azure_woods/valley
+	  + black_forest/north
+	  + black_forest/south
+	  + cloud/memorial
+	  + cloud/spring
+	  + colour/debris
+	  + colour/grey
+	  + colour/light_grey
+	  + crimson/border
+	  + crimson/falls
+	  + crimson/falls_2
+	  + crimson/northwest_valley
+	  + crimson/valley
+	  + crimson/valley2
+	  + crimson/valley3
+	  + dead_marsh/brown
+	  + dead_marsh/gold
+	  + dead_marsh/red
+	  + delta/bayou
+	  + delta/floodplain
+	  + discrete/mulnaar
+	  + discrete/white_tree
+	  + discrete_black_forest_north/gold
+	  + discrete_black_forest_north/orange
+	  + discrete_black_forest_north/rorange
+	  + discrete_black_forest_north/red
+	  + discrete_black_forest_north/rust
+	  + discrete_black_forest_south/ghostwater
+	  + discrete_highland_cliffs/crimson
+	  + discrete_highland_cliffs/dark_maroon
+	  + discrete_highland_cliffs/red
+	  + discrete_highland_cliffs/rust
+	  + discrete_storm_island/sewers
+	  + discrete_taiga/garden
+	  + discrete_taiga/hearthsfire
+	  + discrete_taiga/library
+	  + discrete_taiga/tavern
+	  + discrete_taiga/temple
+	  + discrete_taiga/white
+	  + geyserlands/plateau
+	  + highlands/cliffs
+	  + highlands/cursed_bog
+	  + highlands/cursed_forest
+	  + highlands/forest
+	  + highlands/hills
+	  + highlands/ocean1
+	  + highlands/ocean2
+	  + mediterranean/coast
+	  + mediterranean/hills
+	  + mesa/canyon
+	  + ocean/blue1
+	  + ocean/blue2
+	  + ocean/blue3
+	  + ocean/blue4
+	  + redwoods/forest
+	  + storm/storm_island
+	  + storm/ocean1
+	  + taiga/boreal
+	  + taiga/forest
+	  + taiga/icy_isle
+	  + taiga/marsh
+	  + taiga/maplewoods_red
+	  + tranquil/azalea
+	  + tranquil/pollen_fields
+	  + tropical/island
+	  + webwoods/brown
+	  + webwoods/gold
+	  + webwoods/red
+	  + western/coastal_forest
+	  + western/forest
+	  + western/plains
+	  + western/red_hills
+	  + western/shroomwoods
+	  + volcano/burnzone
+	  + volcano/volcano
+	Tweaks
+	-----------------------------------------------------------
+	  + Iron Door
+	  + Rabbit Foot

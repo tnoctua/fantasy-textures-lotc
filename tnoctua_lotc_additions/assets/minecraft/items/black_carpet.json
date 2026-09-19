@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": {
+          "text": "Kindlefen Mantle",
+          "color": "red",
+          "bold": false,
+          "italic": false,
+          "underlined": false
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "tnoctua:item/lotc/kindlefen_mantle"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/black_carpet"
+    }
+  }
+}

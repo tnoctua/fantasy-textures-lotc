@@ -1,0 +1,18 @@
+NRP License
+
+Copyright (c) 2026 tnoctua
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this resource pack and associated files (the "Pack"), to use the contents
+for personal purposes.  Commercial-use and redistribution of artwork or images
+(the "Textures") is prohibited under any and all circumstances unless provided
+written consent by the original author.
+
+The Pack contains item definitions, model files, and otherwise functional files,
+all of which are JavaScript Object Notation (JSON) format, which may be included
+in other works, both non-profit and commercial, as long as the original author
+is credited alongside any distributed copy of the files.  Textures DO NOT apply
+to this exception and are the sole copyright of the original author.
+
+The above copyright notice and this permission notice shall be included in all
+copies of the Pack.

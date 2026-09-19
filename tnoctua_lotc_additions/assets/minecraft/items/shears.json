@@ -1,0 +1,44 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "tythan:signed_uuid": "vortex",
+            "tythan:vortexregistry": "alchemist_shears",
+            "tythan:vortex_version": "2"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "tnoctua:item/lotc/alchemist_shears"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_model_data",
+      "cases": [
+        {
+          "when": {
+            "floats": [
+              602001
+            ]
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "tnoctua:item/lotc/bolt_cutters"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/shears"
+      }
+    }
+  }
+}

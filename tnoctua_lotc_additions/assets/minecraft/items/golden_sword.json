@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": {
+          "text": "Aurum Herbal Knife",
+          "color": "gold",
+          "bold": true,
+          "italic": true,
+          "underlined": false
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "tnoctua:item/lotc/aurum_herbal_knife"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/golden_sword"
+    }
+  }
+}

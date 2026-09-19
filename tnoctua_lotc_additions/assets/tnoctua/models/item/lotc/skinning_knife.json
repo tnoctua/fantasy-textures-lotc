@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "tnoctua:item/lotc/skinning_knife"
+  },
+  "display": {
+    "gui": {
+      "translation": [ 1.0, 1.0, 0 ]
+    }
+  }
+}

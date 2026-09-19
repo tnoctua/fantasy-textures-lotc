@@ -1,0 +1,72 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": {
+          "text": "✧ Mooncat Goggles ✧",
+          "color": "gold",
+          "bold": false,
+          "italic": true,
+          "obfuscated": false,
+          "strikethrough": false,
+          "underlined": false
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "tnoctua:item/lotc/goggles"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": {
+            "text": "✧ Starweave Sight Goggles ✧",
+            "color": "light_purple",
+            "bold": false,
+            "italic": true,
+            "obfuscated": false,
+            "strikethrough": false,
+            "underlined": false
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "tnoctua:item/lotc/goggles_purple"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+          {
+            "when": {
+              "text": "✧ Emberglow Goggles ✧",
+              "color": "red",
+              "bold": false,
+              "italic": true,
+              "obfuscated": false,
+              "strikethrough": false,
+              "underlined": false
+            },
+            "model": {
+              "type": "minecraft:model",
+              "model": "tnoctua:item/lotc/goggles_red"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/glass_pane"
+        }
+      }
+    }
+  }
+}

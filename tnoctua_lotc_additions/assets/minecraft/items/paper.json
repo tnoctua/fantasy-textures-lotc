@@ -1,0 +1,163 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": {
+          "text": "❀ Nature's Dressing ❀",
+          "color": "red",
+          "bold": true,
+          "italic": true,
+          "underlined": false
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "tnoctua:item/lotc/natures_dressing"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": {
+            "text": "Note",
+            "color": "white"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "tnoctua:item/lotc/note"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+          {
+            "when": {
+              "text": "Green Forest Silk",
+              "color": "dark_green",
+              "bold": true,
+              "italic": true,
+              "underlined": true
+            },
+            "model": {
+              "type": "minecraft:model",
+              "model": "tnoctua:item/lotc/skin_ticket"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:custom_name",
+          "cases": [
+            {
+              "when": {
+                "text": "Rosalian Silks",
+                "color": "red",
+                "bold": true,
+                "italic": true,
+                "underlined": true
+              },
+              "model": {
+                "type": "minecraft:model",
+                "model": "tnoctua:item/lotc/skin_ticket"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:component",
+            "component": "minecraft:custom_name",
+            "cases": [
+              {
+                "when": {
+                  "text": "Mulberry Wine Ticket",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": true,
+                  "underlined": true
+                },
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "tnoctua:item/lotc/skin_ticket"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:select",
+              "property": "minecraft:component",
+              "component": "minecraft:custom_name",
+              "cases": [
+                {
+                  "when": {
+                    "text": "Idyll Ticket",
+                    "color": "dark_green",
+                    "bold": true,
+                    "italic": true,
+                    "underlined": true
+                  },
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "tnoctua:item/lotc/skin_ticket"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:select",
+                "property": "minecraft:component",
+                "component": "minecraft:custom_name",
+                "cases": [
+                  {
+                    "when": {
+                      "text": "Shepard Blue Ticket",
+                      "color": "blue",
+                      "bold": true,
+                      "italic": true,
+                      "underlined": true
+                    },
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "tnoctua:item/lotc/skin_ticket"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:select",
+                  "property": "minecraft:component",
+                  "component": "minecraft:custom_name",
+                  "cases": [
+                    {
+                      "when": {
+                        "text": "Ashen Youth Ticket",
+                        "color": "dark_red",
+                        "bold": true,
+                        "italic": true,
+                        "underlined": true
+                      },
+                      "model": {
+                        "type": "minecraft:model",
+                        "model": "tnoctua:item/lotc/skin_ticket"
+                      }
+                    }
+                  ],
+                  "fallback": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/paper"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "pack": {
+    "_comment": "Format clutter is to support version before and after 1.21.9",
+    "description": "§7Venture unto Azuras~\n§8by tnoctua \u2022 1.21.11+",
+    "min_format": 55,
+    "max_format": 121,
+    "pack_format": 55,
+    "supported_formats": {
+      "min_inclusive": 55,
+      "max_inclusive": 121
+    }
+  },
+  "overlays": {
+    "entries": [
+      {
+        "_comment": "Signed Item and Plugin Item Textures",
+        "directory": "tnoctua_lotc_additions",
+        "min_format": 55,
+        "max_format": 121,
+        "formats": {
+          "min_inclusive": 55,
+          "max_inclusive": 121
+        }
+      },
+      {
+        "_comment": "Herb Textures",
+        "directory": "tnoctua_lotc_herbs",
+        "min_format": 55,
+        "max_format": 121,
+        "formats": {
+          "min_inclusive": 55,
+          "max_inclusive": 121
+        }
+      },
+      {
+        "_comment": "Missing Translations",
+        "directory": "tnoctua_lotc_lang",
+        "min_format": 55,
+        "max_format": 121,
+        "formats": {
+          "min_inclusive": 55,
+          "max_inclusive": 121
+        }
+      },
+      {
+        "_comment": "Vanilla Texture Changes",
+        "directory": "tnoctua_lotc_tweaks",
+        "min_format": 55,
+        "max_format": 121,
+        "formats": {
+          "min_inclusive": 55,
+          "max_inclusive": 121
+        }
+      }
+    ],
+    "disabled_entries": []
+  }
+}
