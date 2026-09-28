@@ -7,7 +7,7 @@
       {
         "when": {
           "floats": [
-            203001
+            204001
           ]
         },
         "model": {
@@ -16,7 +16,7 @@
             {
               "model": {
                 "type": "minecraft:model",
-                "model": "tnoctua:item/lotc/great_axe"
+                "model": "tnoctua:item/lotc/spear"
               },
               "when": [
                 "gui",
@@ -28,7 +28,7 @@
           ],
           "fallback": {
             "type": "minecraft:model",
-            "model": "tnoctua:item/lotc/great_axe_in_hand"
+            "model": "tnoctua:item/lotc/spear_in_hand"
           },
           "property": "minecraft:display_context"
         }
@@ -36,7 +36,7 @@
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/iron_axe"
+      "model": "minecraft:item/netherite_shovel"
     }
   }
 }

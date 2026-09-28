@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "tnoctua:item/lotc/longsword"
+    "layer0": "tnoctua:item/lotc/mace"
   }
 }

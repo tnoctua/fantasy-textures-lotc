@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:item/handheld",
-    "textures": {
-      "layer0": "minecraft:item/trident"
-    }
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "tnoctua:item/lotc/javelin"
+  }
 }

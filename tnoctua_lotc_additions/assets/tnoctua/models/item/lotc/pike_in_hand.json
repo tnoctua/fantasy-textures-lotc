@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/spear_in_hand",
+  "textures": {
+    "layer0": "tnoctua:item/lotc/pike_in_hand"
+  }
+}

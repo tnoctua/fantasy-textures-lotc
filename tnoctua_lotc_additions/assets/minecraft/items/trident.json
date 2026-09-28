@@ -11,14 +11,72 @@
           ]
         },
         "model": {
-          "type": "minecraft:model",
-          "model": "tnoctua:item/lotc/javelin"
+          "type": "minecraft:select",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tnoctua:item/lotc/javelin"
+              },
+              "when": [
+                "gui",
+                "ground",
+                "fixed",
+                "on_shelf"
+              ]
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "tnoctua:item/lotc/javelin_in_hand"
+            },
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "tnoctua:item/lotc/javelin_throwing"
+            },
+            "property": "minecraft:using_item"
+          },
+          "property": "minecraft:display_context"
         }
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/trident"
+      "type": "minecraft:select",
+      "cases": [
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/trident"
+          },
+          "when": [
+            "gui",
+            "ground",
+            "fixed",
+            "on_shelf"
+          ]
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:condition",
+        "on_false": {
+          "type": "minecraft:special",
+          "base": "minecraft:item/trident_in_hand",
+          "model": {
+            "type": "minecraft:trident"
+          }
+        },
+        "on_true": {
+          "type": "minecraft:special",
+          "base": "minecraft:item/trident_throwing",
+          "model": {
+            "type": "minecraft:trident"
+          }
+        },
+        "property": "minecraft:using_item"
+      },
+      "property": "minecraft:display_context"
     }
   }
 }

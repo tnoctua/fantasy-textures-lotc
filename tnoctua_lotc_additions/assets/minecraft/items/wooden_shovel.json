@@ -7,7 +7,7 @@
       {
         "when": {
           "floats": [
-            203001
+            503001
           ]
         },
         "model": {
@@ -16,7 +16,7 @@
             {
               "model": {
                 "type": "minecraft:model",
-                "model": "tnoctua:item/lotc/great_axe"
+                "model": "tnoctua:item/lotc/jousting_lance"
               },
               "when": [
                 "gui",
@@ -28,7 +28,7 @@
           ],
           "fallback": {
             "type": "minecraft:model",
-            "model": "tnoctua:item/lotc/great_axe_in_hand"
+            "model": "tnoctua:item/lotc/jousting_lance_in_hand"
           },
           "property": "minecraft:display_context"
         }
@@ -36,7 +36,7 @@
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/iron_axe"
+      "model": "minecraft:item/wooden_shovel"
     }
   }
 }
