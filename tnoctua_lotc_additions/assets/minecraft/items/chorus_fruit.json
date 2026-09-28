@@ -1,0 +1,39 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "starsigns:starfruit": "fruit",
+            "tythan:foodcore_vanilla": "CHORUS_FRUIT",
+            "tythan:perishable": "ignored"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "tnoctua:item/lotc/blisterthorn"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "starsigns:starfruit": "fruit",
+            "tythan:foodcore_vanilla": "CHORUS_FRUIT",
+            "tythan:perishable": "nonperishable"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "tnoctua:item/lotc/starfruit"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/chorus_fruit"
+    }
+  }
+}
