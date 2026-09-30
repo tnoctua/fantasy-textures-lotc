@@ -10,7 +10,7 @@
  /_/   \_\__,_|\__,_|      \___/|_| |_(_) |_____\___/ |_| \____|         
                                                                          
 ===============================================================
-  N's High Fantasy - LOTC Add-On		Version: 1.0     
+  N's High Fantasy - LOTC Add-On		Version: 1.1     
 ===============================================================
 
   This resource pack contains overlays for Lord of The Craft

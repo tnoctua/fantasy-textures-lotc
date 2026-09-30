@@ -97,7 +97,7 @@
                 },
                 "model": {
                   "type": "minecraft:model",
-                  "model": "tnoctua:item/lotc/medical_book"
+                  "model": "tnoctua:item/lotc/warcrime_book"
                 }
               }
             ],
@@ -144,7 +144,7 @@
                       },
                       "model": {
                         "type": "minecraft:model",
-                        "model": "tnoctua:item/lotc/medical_book"
+                        "model": "tnoctua:item/lotc/dawn_book"
                       }
                     }
                   ],
@@ -209,8 +209,958 @@
                           }
                         ],
                         "fallback": {
-                          "type": "minecraft:model",
-                          "model": "minecraft:item/written_book"
+                          "type": "minecraft:select",
+                          "property": "minecraft:component",
+                          "component": "minecraft:custom_name",
+                          "cases": [
+                            {
+                              "when": {
+                                "text": "ᴍᴏʀʙᴜs sᴜᴛɪᴄᴀɴᴀ",
+                                "color": "yellow",
+                                "bold": true,
+                                "italic": false,
+                                "underlined": false
+                              },
+                              "model": {
+                                "type": "minecraft:model",
+                                "model": "tnoctua:item/lotc/faith_book"
+                              }
+                            }
+                          ],
+                          "fallback": {
+                            "type": "minecraft:select",
+                            "property": "minecraft:component",
+                            "component": "minecraft:custom_name",
+                            "cases": [
+                              {
+                                "when": {
+                                  "text": "The Alphabet for Children",
+                                  "color": "yellow",
+                                  "bold": false,
+                                  "italic": true,
+                                  "underlined": false
+                                },
+                                "model": {
+                                  "type": "minecraft:model",
+                                  "model": "tnoctua:item/lotc/lang_book"
+                                }
+                              }
+                            ],
+                            "fallback": {
+                              "type": "minecraft:select",
+                              "property": "minecraft:component",
+                              "component": "minecraft:custom_name",
+                              "cases": [
+                                {
+                                  "when": {
+                                    "text": "ஓ๑♡═Book of herbs═♡๑ஓ",
+                                    "color": "dark_purple",
+                                    "bold": false,
+                                    "italic": true,
+                                    "underlined": true
+                                  },
+                                  "model": {
+                                    "type": "minecraft:model",
+                                    "model": "tnoctua:item/lotc/herb_book"
+                                  }
+                                }
+                              ],
+                              "fallback": {
+                                "type": "minecraft:select",
+                                "property": "minecraft:component",
+                                "component": "minecraft:custom_name",
+                                "cases": [
+                                  {
+                                    "when": {
+                                      "text": "•|[ A Natural Anomaly ]|•",
+                                      "color": "gold",
+                                      "bold": false,
+                                      "italic": false,
+                                      "underlined": false
+                                    },
+                                    "model": {
+                                      "type": "minecraft:model",
+                                      "model": "tnoctua:item/lotc/faith_book"
+                                    }
+                                  }
+                                ],
+                                "fallback": {
+                                  "type": "minecraft:select",
+                                  "property": "minecraft:component",
+                                  "component": "minecraft:custom_name",
+                                  "cases": [
+                                    {
+                                      "when": {
+                                        "text": "",
+                                        "extra": [
+                                          {
+                                            "text": "Medicine in Steps: Medicine but Shortened",
+                                            "color": "aqua",
+                                            "bold": false,
+                                            "italic": true,
+                                            "obfuscated": false,
+                                            "strikethrough": false,
+                                            "underlined": false
+                                          }
+                                        ]
+                                      },
+                                      "model": {
+                                        "type": "minecraft:model",
+                                        "model": "tnoctua:item/lotc/medical_book"
+                                      }
+                                    }
+                                  ],
+                                  "fallback": {
+                                    "type": "minecraft:select",
+                                    "property": "minecraft:component",
+                                    "component": "minecraft:custom_name",
+                                    "cases": [
+                                      {
+                                        "when": {
+                                          "text": "§8§o§oOn Black Powder"
+                                        },
+                                        "model": {
+                                          "type": "minecraft:model",
+                                          "model": "tnoctua:item/lotc/alchemy_book"
+                                        }
+                                      }
+                                    ],
+                                    "fallback": {
+                                      "type": "minecraft:select",
+                                      "property": "minecraft:component",
+                                      "component": "minecraft:custom_name",
+                                      "cases": [
+                                        {
+                                          "when": {
+                                            "text": "§9§o§oPotions for Beginners"
+                                          },
+                                          "model": {
+                                            "type": "minecraft:model",
+                                            "model": "tnoctua:item/lotc/alchemy_book"
+                                          }
+                                        }
+                                      ],
+                                      "fallback": {
+                                        "type": "minecraft:select",
+                                        "property": "minecraft:component",
+                                        "component": "minecraft:custom_name",
+                                        "cases": [
+                                          {
+                                            "when": {
+                                              "text": "§1§o§oPotions for Intermediates"
+                                            },
+                                            "model": {
+                                              "type": "minecraft:model",
+                                              "model": "tnoctua:item/lotc/alchemy_book"
+                                            }
+                                          }
+                                        ],
+                                        "fallback": {
+                                          "type": "minecraft:select",
+                                          "property": "minecraft:component",
+                                          "component": "minecraft:custom_name",
+                                          "cases": [
+                                            {
+                                              "when": {
+                                                "text": "",
+                                                "extra": [
+                                                  {
+                                                    "text": "A Study on the Mongrel Plague",
+                                                    "color": "dark_red",
+                                                    "bold": false,
+                                                    "italic": true,
+                                                    "obfuscated": false,
+                                                    "strikethrough": false,
+                                                    "underlined": false
+                                                  }
+                                                ]
+                                              },
+                                              "model": {
+                                                "type": "minecraft:model",
+                                                "model": "tnoctua:item/lotc/vamp_book"
+                                              }
+                                            }
+                                          ],
+                                          "fallback": {
+                                            "type": "minecraft:select",
+                                            "property": "minecraft:component",
+                                            "component": "minecraft:custom_name",
+                                            "cases": [
+                                              {
+                                                "when": {
+                                                  "text": "The Beginning ⊱🔥⊰",
+                                                  "color": "dark_red",
+                                                  "bold": false,
+                                                  "italic": false,
+                                                  "underlined": false
+                                                },
+                                                "model": {
+                                                  "type": "minecraft:model",
+                                                  "model": "tnoctua:item/lotc/paragon_book"
+                                                }
+                                              }
+                                            ],
+                                            "fallback": {
+                                              "type": "minecraft:select",
+                                              "property": "minecraft:component",
+                                              "component": "minecraft:custom_name",
+                                              "cases": [
+                                                {
+                                                  "when": {
+                                                    "text": "The Paragons ⊱🔥⊰",
+                                                    "color": "dark_red",
+                                                    "bold": false,
+                                                    "italic": false,
+                                                    "underlined": false
+                                                  },
+                                                  "model": {
+                                                    "type": "minecraft:model",
+                                                    "model": "tnoctua:item/lotc/paragon_book"
+                                                  }
+                                                }
+                                              ],
+                                              "fallback": {
+                                                "type": "minecraft:select",
+                                                "property": "minecraft:component",
+                                                "component": "minecraft:custom_name",
+                                                "cases": [
+                                                  {
+                                                    "when": {
+                                                      "text": "",
+                                                      "extra": [
+                                                        {
+                                                          "text": "The Alphabet for Children",
+                                                          "color": "green",
+                                                          "bold": false,
+                                                          "italic": true,
+                                                          "obfuscated": false,
+                                                          "strikethrough": false,
+                                                          "underlined": false
+                                                        }
+                                                      ]
+                                                    },
+                                                    "model": {
+                                                      "type": "minecraft:model",
+                                                      "model": "tnoctua:item/lotc/lang_book"
+                                                    }
+                                                  }
+                                                ],
+                                                "fallback": {
+                                                  "type": "minecraft:select",
+                                                  "property": "minecraft:component",
+                                                  "component": "minecraft:custom_name",
+                                                  "cases": [
+                                                    {
+                                                      "when": {
+                                                        "text": "",
+                                                        "extra": [
+                                                          {
+                                                            "text": "Reading Comprehension for Children",
+                                                            "color": "green",
+                                                            "bold": false,
+                                                            "italic": true,
+                                                            "obfuscated": false,
+                                                            "strikethrough": false,
+                                                            "underlined": false
+                                                          }
+                                                        ]
+                                                      },
+                                                      "model": {
+                                                        "type": "minecraft:model",
+                                                        "model": "tnoctua:item/lotc/lang_book"
+                                                      }
+                                                    }
+                                                  ],
+                                                  "fallback": {
+                                                    "type": "minecraft:select",
+                                                    "property": "minecraft:component",
+                                                    "component": "minecraft:custom_name",
+                                                    "cases": [
+                                                      {
+                                                        "when": {
+                                                          "text": "",
+                                                          "extra": [
+                                                            {
+                                                              "text": "Beginner Guide to the Language of Dark Elves Vol I",
+                                                              "color": "dark_purple",
+                                                              "bold": false,
+                                                              "italic": true,
+                                                              "obfuscated": false,
+                                                              "strikethrough": false,
+                                                              "underlined": false
+                                                            }
+                                                          ]
+                                                        },
+                                                        "model": {
+                                                          "type": "minecraft:model",
+                                                          "model": "tnoctua:item/lotc/lang_book"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "fallback": {
+                                                      "type": "minecraft:select",
+                                                      "property": "minecraft:component",
+                                                      "component": "minecraft:custom_name",
+                                                      "cases": [
+                                                        {
+                                                          "when": {
+                                                            "text": "🗡🪓 Onishiman For Dummies 🪓🗡",
+                                                            "color": "red",
+                                                            "bold": true,
+                                                            "italic": false,
+                                                            "underlined": false
+                                                          },
+                                                          "model": {
+                                                            "type": "minecraft:model",
+                                                            "model": "tnoctua:item/lotc/lang_book"
+                                                          }
+                                                        }
+                                                      ],
+                                                      "fallback": {
+                                                        "type": "minecraft:select",
+                                                        "property": "minecraft:component",
+                                                        "component": "minecraft:custom_name",
+                                                        "cases": [
+                                                          {
+                                                            "when": {
+                                                              "text": "",
+                                                              "extra": [
+                                                                {
+                                                                  "text": "=- Confectionary Alchemy -=",
+                                                                  "color": "aqua",
+                                                                  "bold": false,
+                                                                  "italic": true,
+                                                                  "obfuscated": false,
+                                                                  "strikethrough": false,
+                                                                  "underlined": false
+                                                                }
+                                                              ]
+                                                            },
+                                                            "model": {
+                                                              "type": "minecraft:model",
+                                                              "model": "tnoctua:item/lotc/alchemy_book"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "fallback": {
+                                                          "type": "minecraft:select",
+                                                          "property": "minecraft:component",
+                                                          "component": "minecraft:custom_name",
+                                                          "cases": [
+                                                            {
+                                                              "when": {
+                                                                "text": "",
+                                                                "extra": [
+                                                                  {
+                                                                    "text": "Comprehensive Alchemy Vol. III",
+                                                                    "color": "dark_aqua",
+                                                                    "bold": false,
+                                                                    "italic": true,
+                                                                    "obfuscated": false,
+                                                                    "strikethrough": false,
+                                                                    "underlined": false
+                                                                  }
+                                                                ]
+                                                              },
+                                                              "model": {
+                                                                "type": "minecraft:model",
+                                                                "model": "tnoctua:item/lotc/alchemy_book"
+                                                              }
+                                                            }
+                                                          ],
+                                                          "fallback": {
+                                                            "type": "minecraft:select",
+                                                            "property": "minecraft:component",
+                                                            "component": "minecraft:custom_name",
+                                                            "cases": [
+                                                              {
+                                                                "when": {
+                                                                  "text": "",
+                                                                  "extra": [
+                                                                    {
+                                                                      "text": "T1 Alchemy Potions",
+                                                                      "color": "green",
+                                                                      "bold": false,
+                                                                      "italic": true,
+                                                                      "obfuscated": false,
+                                                                      "strikethrough": false,
+                                                                      "underlined": false
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                "model": {
+                                                                  "type": "minecraft:model",
+                                                                  "model": "tnoctua:item/lotc/alchemy_book"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "fallback": {
+                                                              "type": "minecraft:select",
+                                                              "property": "minecraft:component",
+                                                              "component": "minecraft:custom_name",
+                                                              "cases": [
+                                                                {
+                                                                  "when": {
+                                                                    "text": "Sylvian Alchemy",
+                                                                    "color": "dark_green",
+                                                                    "bold": false,
+                                                                    "italic": true,
+                                                                    "underlined": false
+                                                                  },
+                                                                  "model": {
+                                                                    "type": "minecraft:model",
+                                                                    "model": "tnoctua:item/lotc/alchemy_book"
+                                                                  }
+                                                                }
+                                                              ],
+                                                              "fallback": {
+                                                                "type": "minecraft:select",
+                                                                "property": "minecraft:component",
+                                                                "component": "minecraft:custom_name",
+                                                                "cases": [
+                                                                  {
+                                                                    "when": {
+                                                                      "text": "AN INTRO TO SMITHING: Iron Smithing",
+                                                                      "color": "green",
+                                                                      "bold": true,
+                                                                      "italic": false,
+                                                                      "underlined": false
+                                                                    },
+                                                                    "model": {
+                                                                      "type": "minecraft:model",
+                                                                      "model": "tnoctua:item/lotc/smith_book"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "fallback": {
+                                                                  "type": "minecraft:select",
+                                                                  "property": "minecraft:component",
+                                                                  "component": "minecraft:custom_name",
+                                                                  "cases": [
+                                                                    {
+                                                                      "when": {
+                                                                        "text": "",
+                                                                        "extra": [
+                                                                          {
+                                                                            "text": "How to Make a Successful Smithing Business",
+                                                                            "color": "red",
+                                                                            "bold": false,
+                                                                            "italic": true,
+                                                                            "obfuscated": false,
+                                                                            "strikethrough": false,
+                                                                            "underlined": false
+                                                                          }
+                                                                        ]
+                                                                      },
+                                                                      "model": {
+                                                                        "type": "minecraft:model",
+                                                                        "model": "tnoctua:item/lotc/smith_book"
+                                                                      }
+                                                                    }
+                                                                  ],
+                                                                  "fallback": {
+                                                                    "type": "minecraft:select",
+                                                                    "property": "minecraft:component",
+                                                                    "component": "minecraft:custom_name",
+                                                                    "cases": [
+                                                                      {
+                                                                        "when": {
+                                                                          "text": "",
+                                                                          "extra": [
+                                                                            {
+                                                                              "text": "✠ VAMPIRIC CURE: ST. HUMBERT'S QUINTESSENCE ✠",
+                                                                              "color": "gold",
+                                                                              "bold": false,
+                                                                              "italic": true,
+                                                                              "obfuscated": false,
+                                                                              "strikethrough": false,
+                                                                              "underlined": false
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        "model": {
+                                                                          "type": "minecraft:model",
+                                                                          "model": "tnoctua:item/lotc/alchemy_book"
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "fallback": {
+                                                                      "type": "minecraft:select",
+                                                                      "property": "minecraft:component",
+                                                                      "component": "minecraft:custom_name",
+                                                                      "cases": [
+                                                                        {
+                                                                          "when": {
+                                                                            "text": "",
+                                                                            "extra": [
+                                                                              {
+                                                                                "text": "✠ ST. AYMAS' DRAUGHT ✠",
+                                                                                "color": "gold",
+                                                                                "bold": false,
+                                                                                "italic": true,
+                                                                                "obfuscated": false,
+                                                                                "strikethrough": false,
+                                                                                "underlined": false
+                                                                              }
+                                                                            ]
+                                                                          },
+                                                                          "model": {
+                                                                            "type": "minecraft:model",
+                                                                            "model": "tnoctua:item/lotc/alchemy_book"
+                                                                          }
+                                                                        }
+                                                                      ],
+                                                                      "fallback": {
+                                                                        "type": "minecraft:select",
+                                                                        "property": "minecraft:component",
+                                                                        "component": "minecraft:custom_name",
+                                                                        "cases": [
+                                                                          {
+                                                                            "when": {
+                                                                              "text": "",
+                                                                              "extra": [
+                                                                                {
+                                                                                  "text": "ST. AMAYAS' DRAUGHT",
+                                                                                  "color": "gold",
+                                                                                  "bold": false,
+                                                                                  "italic": true,
+                                                                                  "obfuscated": false,
+                                                                                  "strikethrough": false,
+                                                                                  "underlined": false
+                                                                                }
+                                                                              ]
+                                                                            },
+                                                                            "model": {
+                                                                              "type": "minecraft:model",
+                                                                              "model": "tnoctua:item/lotc/alchemy_book"
+                                                                            }
+                                                                          }
+                                                                        ],
+                                                                        "fallback": {
+                                                                          "type": "minecraft:select",
+                                                                          "property": "minecraft:component",
+                                                                          "component": "minecraft:custom_name",
+                                                                          "cases": [
+                                                                            {
+                                                                              "when": {
+                                                                                "text": "Alchemy: Novice [Symbols & Signs]",
+                                                                                "color": "green",
+                                                                                "bold": false,
+                                                                                "italic": true,
+                                                                                "underlined": false
+                                                                              },
+                                                                              "model": {
+                                                                                "type": "minecraft:model",
+                                                                                "model": "tnoctua:item/lotc/alchemy_book"
+                                                                              }
+                                                                            }
+                                                                          ],
+                                                                          "fallback": {
+                                                                            "type": "minecraft:select",
+                                                                            "property": "minecraft:component",
+                                                                            "component": "minecraft:custom_name",
+                                                                            "cases": [
+                                                                              {
+                                                                                "when": {
+                                                                                  "text": "",
+                                                                                  "extra": [
+                                                                                    {
+                                                                                      "text": "Alchmey Guide: I",
+                                                                                      "color": "dark_green",
+                                                                                      "bold": false,
+                                                                                      "italic": true,
+                                                                                      "obfuscated": false,
+                                                                                      "strikethrough": false,
+                                                                                      "underlined": false
+                                                                                    }
+                                                                                  ]
+                                                                                },
+                                                                                "model": {
+                                                                                  "type": "minecraft:model",
+                                                                                  "model": "tnoctua:item/lotc/alchemy_book"
+                                                                                }
+                                                                              }
+                                                                            ],
+                                                                            "fallback": {
+                                                                              "type": "minecraft:select",
+                                                                              "property": "minecraft:component",
+                                                                              "component": "minecraft:custom_name",
+                                                                              "cases": [
+                                                                                {
+                                                                                  "when": {
+                                                                                    "text": "",
+                                                                                    "extra": [
+                                                                                      {
+                                                                                        "text": "Alchemical Extraction Methods",
+                                                                                        "color": "green",
+                                                                                        "bold": false,
+                                                                                        "italic": true,
+                                                                                        "obfuscated": false,
+                                                                                        "strikethrough": false,
+                                                                                        "underlined": false
+                                                                                      }
+                                                                                    ]
+                                                                                  },
+                                                                                  "model": {
+                                                                                    "type": "minecraft:model",
+                                                                                    "model": "tnoctua:item/lotc/alchemy_book"
+                                                                                  }
+                                                                                }
+                                                                              ],
+                                                                              "fallback": {
+                                                                                "type": "minecraft:select",
+                                                                                "property": "minecraft:component",
+                                                                                "component": "minecraft:custom_name",
+                                                                                "cases": [
+                                                                                  {
+                                                                                    "when": {
+                                                                                      "text": "",
+                                                                                      "extra": [
+                                                                                        {
+                                                                                          "text": "A Compilation of Medical Herbs II",
+                                                                                          "color": "yellow",
+                                                                                          "bold": false,
+                                                                                          "italic": true,
+                                                                                          "obfuscated": false,
+                                                                                          "strikethrough": false,
+                                                                                          "underlined": false
+                                                                                        }
+                                                                                      ]
+                                                                                    },
+                                                                                    "model": {
+                                                                                      "type": "minecraft:model",
+                                                                                      "model": "tnoctua:item/lotc/herb_book"
+                                                                                    }
+                                                                                  }
+                                                                                ],
+                                                                                "fallback": {
+                                                                                  "type": "minecraft:select",
+                                                                                  "property": "minecraft:component",
+                                                                                  "component": "minecraft:custom_name",
+                                                                                  "cases": [
+                                                                                    {
+                                                                                      "when": {
+                                                                                        "text": "",
+                                                                                        "extra": [
+                                                                                          {
+                                                                                            "text": "Medicine in Steps: Salves, Oils, and Creams",
+                                                                                            "color": "aqua",
+                                                                                            "bold": false,
+                                                                                            "italic": true,
+                                                                                            "obfuscated": false,
+                                                                                            "strikethrough": false,
+                                                                                            "underlined": false
+                                                                                          }
+                                                                                        ]
+                                                                                      },
+                                                                                      "model": {
+                                                                                        "type": "minecraft:model",
+                                                                                        "model": "tnoctua:item/lotc/medical_book"
+                                                                                      }
+                                                                                    }
+                                                                                  ],
+                                                                                  "fallback": {
+                                                                                    "type": "minecraft:select",
+                                                                                    "property": "minecraft:component",
+                                                                                    "component": "minecraft:custom_name",
+                                                                                    "cases": [
+                                                                                      {
+                                                                                        "when": {
+                                                                                          "text": "",
+                                                                                          "extra": [
+                                                                                            {
+                                                                                              "text": "Guide to Darkstalkers & Other Undead",
+                                                                                              "color": "dark_gray",
+                                                                                              "bold": false,
+                                                                                              "italic": true,
+                                                                                              "obfuscated": false,
+                                                                                              "strikethrough": false,
+                                                                                              "underlined": false
+                                                                                            }
+                                                                                          ]
+                                                                                        },
+                                                                                        "model": {
+                                                                                          "type": "minecraft:model",
+                                                                                          "model": "tnoctua:item/lotc/monster_book"
+                                                                                        }
+                                                                                      }
+                                                                                    ],
+                                                                                    "fallback": {
+                                                                                      "type": "minecraft:select",
+                                                                                      "property": "minecraft:component",
+                                                                                      "component": "minecraft:custom_name",
+                                                                                      "cases": [
+                                                                                        {
+                                                                                          "when": {
+                                                                                            "text": "",
+                                                                                            "extra": [
+                                                                                              {
+                                                                                                "text": "Gnomes: Unholy Beasts and their weaknesses.",
+                                                                                                "color": "dark_red",
+                                                                                                "bold": false,
+                                                                                                "italic": true,
+                                                                                                "obfuscated": false,
+                                                                                                "strikethrough": false,
+                                                                                                "underlined": false
+                                                                                              }
+                                                                                            ]
+                                                                                          },
+                                                                                          "model": {
+                                                                                            "type": "minecraft:model",
+                                                                                            "model": "tnoctua:item/lotc/monster_book"
+                                                                                          }
+                                                                                        }
+                                                                                      ],
+                                                                                      "fallback": {
+                                                                                        "type": "minecraft:select",
+                                                                                        "property": "minecraft:component",
+                                                                                        "component": "minecraft:custom_name",
+                                                                                        "cases": [
+                                                                                          {
+                                                                                            "when": {
+                                                                                              "text": "",
+                                                                                              "extra": [
+                                                                                                {
+                                                                                                  "text": "Inferi Information Center",
+                                                                                                  "color": "light_purple",
+                                                                                                  "bold": false,
+                                                                                                  "italic": true,
+                                                                                                  "obfuscated": false,
+                                                                                                  "strikethrough": false,
+                                                                                                  "underlined": false
+                                                                                                }
+                                                                                              ]
+                                                                                            },
+                                                                                            "model": {
+                                                                                              "type": "minecraft:model",
+                                                                                              "model": "tnoctua:item/lotc/monster_book"
+                                                                                            }
+                                                                                          }
+                                                                                        ],
+                                                                                        "fallback": {
+                                                                                          "type": "minecraft:select",
+                                                                                          "property": "minecraft:component",
+                                                                                          "component": "minecraft:custom_name",
+                                                                                          "cases": [
+                                                                                            {
+                                                                                              "when": {
+                                                                                                "text": "",
+                                                                                                "extra": [
+                                                                                                  {
+                                                                                                    "text": "Analysis of Al-Faiz Daemuns V2",
+                                                                                                    "color": "light_purple",
+                                                                                                    "bold": false,
+                                                                                                    "italic": true,
+                                                                                                    "obfuscated": false,
+                                                                                                    "strikethrough": false,
+                                                                                                    "underlined": false
+                                                                                                  }
+                                                                                                ]
+                                                                                              },
+                                                                                              "model": {
+                                                                                                "type": "minecraft:model",
+                                                                                                "model": "tnoctua:item/lotc/monster_book"
+                                                                                              }
+                                                                                            }
+                                                                                          ],
+                                                                                          "fallback": {
+                                                                                            "type": "minecraft:select",
+                                                                                            "property": "minecraft:component",
+                                                                                            "component": "minecraft:custom_name",
+                                                                                            "cases": [
+                                                                                              {
+                                                                                                "when": {
+                                                                                                  "text": "",
+                                                                                                  "extra": [
+                                                                                                    {
+                                                                                                      "text": "On The Hearthfire and its uses",
+                                                                                                      "color": "gold",
+                                                                                                      "bold": false,
+                                                                                                      "italic": true,
+                                                                                                      "obfuscated": false,
+                                                                                                      "strikethrough": false,
+                                                                                                      "underlined": false
+                                                                                                    }
+                                                                                                  ]
+                                                                                                },
+                                                                                                "model": {
+                                                                                                  "type": "minecraft:model",
+                                                                                                  "model": "tnoctua:item/lotc/red_faith_book"
+                                                                                                }
+                                                                                              }
+                                                                                            ],
+                                                                                            "fallback": {
+                                                                                              "type": "minecraft:select",
+                                                                                              "property": "minecraft:component",
+                                                                                              "component": "minecraft:custom_name",
+                                                                                              "cases": [
+                                                                                                {
+                                                                                                  "when": {
+                                                                                                    "text": "",
+                                                                                                    "extra": [
+                                                                                                      {
+                                                                                                        "text": "The Purifiers",
+                                                                                                        "color": "gold",
+                                                                                                        "bold": false,
+                                                                                                        "italic": true,
+                                                                                                        "obfuscated": false,
+                                                                                                        "strikethrough": false,
+                                                                                                        "underlined": false
+                                                                                                      }
+                                                                                                    ]
+                                                                                                  },
+                                                                                                  "model": {
+                                                                                                    "type": "minecraft:model",
+                                                                                                    "model": "tnoctua:item/lotc/red_faith_book"
+                                                                                                  }
+                                                                                                }
+                                                                                              ],
+                                                                                              "fallback": {
+                                                                                                "type": "minecraft:select",
+                                                                                                "property": "minecraft:component",
+                                                                                                "component": "minecraft:custom_name",
+                                                                                                "cases": [
+                                                                                                  {
+                                                                                                    "when": {
+                                                                                                      "text": "",
+                                                                                                      "extra": [
+                                                                                                        {
+                                                                                                          "text": "The Red Faith",
+                                                                                                          "color": "gold",
+                                                                                                          "bold": false,
+                                                                                                          "italic": true,
+                                                                                                          "obfuscated": false,
+                                                                                                          "strikethrough": false,
+                                                                                                          "underlined": false
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    },
+                                                                                                    "model": {
+                                                                                                      "type": "minecraft:model",
+                                                                                                      "model": "tnoctua:item/lotc/red_faith_book"
+                                                                                                    }
+                                                                                                  }
+                                                                                                ],
+                                                                                                "fallback": {
+                                                                                                  "type": "minecraft:select",
+                                                                                                  "property": "minecraft:component",
+                                                                                                  "component": "minecraft:custom_name",
+                                                                                                  "cases": [
+                                                                                                    {
+                                                                                                      "when": {
+                                                                                                        "text": "",
+                                                                                                        "extra": [
+                                                                                                          {
+                                                                                                            "text": "On Popular Heresies",
+                                                                                                            "color": "gold",
+                                                                                                            "bold": false,
+                                                                                                            "italic": true,
+                                                                                                            "obfuscated": false,
+                                                                                                            "strikethrough": false,
+                                                                                                            "underlined": false
+                                                                                                          }
+                                                                                                        ]
+                                                                                                      },
+                                                                                                      "model": {
+                                                                                                        "type": "minecraft:model",
+                                                                                                        "model": "tnoctua:item/lotc/red_faith_book"
+                                                                                                      }
+                                                                                                    }
+                                                                                                  ],
+                                                                                                  "fallback": {
+                                                                                                    "type": "minecraft:select",
+                                                                                                    "property": "minecraft:component",
+                                                                                                    "component": "minecraft:custom_name",
+                                                                                                    "cases": [
+                                                                                                      {
+                                                                                                        "when": {
+                                                                                                          "text": "",
+                                                                                                          "extra": [
+                                                                                                            {
+                                                                                                              "text": "On the Consecration and Removal of Hearth Temples",
+                                                                                                              "color": "gold",
+                                                                                                              "bold": false,
+                                                                                                              "italic": true,
+                                                                                                              "obfuscated": false,
+                                                                                                              "strikethrough": false,
+                                                                                                              "underlined": false
+                                                                                                            }
+                                                                                                          ]
+                                                                                                        },
+                                                                                                        "model": {
+                                                                                                          "type": "minecraft:model",
+                                                                                                          "model": "tnoctua:item/lotc/red_faith_book"
+                                                                                                        }
+                                                                                                      }
+                                                                                                    ],
+                                                                                                    "fallback": {
+                                                                                                      "type": "minecraft:select",
+                                                                                                      "property": "minecraft:component",
+                                                                                                      "component": "minecraft:custom_name",
+                                                                                                      "cases": [
+                                                                                                        {
+                                                                                                          "when": {
+                                                                                                            "text": "",
+                                                                                                            "extra": [
+                                                                                                              {
+                                                                                                                "text": "The Paragon Codex",
+                                                                                                                "color": "gold",
+                                                                                                                "bold": false,
+                                                                                                                "italic": true,
+                                                                                                                "obfuscated": false,
+                                                                                                                "strikethrough": false,
+                                                                                                                "underlined": false
+                                                                                                              }
+                                                                                                            ]
+                                                                                                          },
+                                                                                                          "model": {
+                                                                                                            "type": "minecraft:model",
+                                                                                                            "model": "tnoctua:item/lotc/gold_leaf_book"
+                                                                                                          }
+                                                                                                        }
+                                                                                                      ],
+                                                                                                      "fallback": {
+                                                                                                        "type": "minecraft:model",
+                                                                                                        "model": "minecraft:item/written_book"
+                                                                                                      }
+                                                                                                    }
+                                                                                                  }
+                                                                                                }
+                                                                                              }
+                                                                                            }
+                                                                                          }
+                                                                                        }
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
                         }
                       }
                     }

@@ -10,13 +10,91 @@
  /_/   \_\__,_|\__,_|      \___/|_| |_(_) |_____\___/ |_| \____|         
                                                                          
 ===============================================================
-  N's High Fantasy - LOTC Add-On		Version: 1.0     
+  N's High Fantasy - LOTC Add-On		Version: 1.1     
 ===============================================================
 	+ Added
 	~ Modified
 	- Removed
 ===============================================================
 
+1.1
+===============================================================
+	Additions
+	-----------------------------------------------------------
+	  + Book: A Compilation of Medical Herbs II
+	  + Book: A Natural Anomaly
+	  + Book: A Study on the Mongrel Plague
+	  + Book: Alchemical Extraction Methods
+	  + Book: Alchemy: Novice [Symbols & Signs]
+	  + Book: Alchmey Guide: I
+	  + Book: An Intro to Smithing: Iron Smithing
+	  + Book: Analysis of Al-Faiz Daemuns V2
+	  + Book: Beginner Guide to the Language of Dark Elves Vol I
+	  + Book: Book of Herbs
+	  + Book: Confectionary Alchemy
+	  + Book: Comprehensive Alchemy Vol. III
+	  + Book: Gnomes: Unholy Beasts and their weaknesses.
+	  + Book: Guide to Darkstalkers & Other Undead
+	  + Book: How to Make a Successful Smithing Business
+	  + Book: Inferi Information Center
+	  + Book: Medicine in Steps: Medicine but Shortened
+	  + Book: Medicine in Steps: Salves, Oils, and Creams
+	  + Book: Morbus Suticana
+	  + Book: On Black Powder
+	  + Book: On Popular Heresies
+	  + Book: On the Consecration and Removal of Hearth Temples
+	  + Book: On The Hearthfire and its uses
+	  + Book: Onishiman For Dummies
+	  + Book: Potions for Beginners
+	  + Book: Potions for Intermediates
+	  + Book: Reading Comprehension for Children
+	  + Book: St. Amayas' Draught
+	  + Book: St. Aymas' Draught
+	  + Book: Sylvian Alchemy
+	  + Book: T1 Alchemy Potions
+	  + Book: The Alphabet for Children
+	  + Book: The Alphabet for Children (Knuck Edition)
+	  + Book: The Beginnings
+	  + Book: The Paragons
+	  + Book: The Paragon Codex
+	  + Book: The Purifiers
+	  + Book: The Red Faith
+	  + Book: Vampiric Cure: St. Humbert's Quintessence
+	  + Brineor's Cinquedea
+	  + Jousting Lance
+	  + Lance
+	  + Mace
+	  + Smoldering Sling
+	  + Spear
+	  + Starfruit
+	  + Swordbreaker
+	  ~ Book: Haense Medical Examination Guide
+	  		Modified texture
+	  ~ Book: The Dawn-Rose Redemption
+	  		Modified texture
+	  ~ Great Axe
+	  		Added proper model and textures
+	  ~ Javelin
+	  		Added proper model and textures
+	  ~ Longsword
+	  		Added proper model and textures
+	  ~ Pike
+	  		Added proper model and textures
+	  ~ Shortsword
+	  		Added proper model and textures
+	Language
+	-----------------------------------------------------------
+	  + silverwood/isle
+	  + taiga/maplewoods_gold
+	  + taiga/maplewoods_orange
+	  + taiga/maplewoods_rorange
+	  + taiga/maplewoods_rust
+	  ~ discrete/whitetree
+	  		Renamed to Maplewoods
+	  ~ taiga/maplewoods_red
+	  		Renamed to Maplewoods
+	
+	
 1.0
 ===============================================================
 	Additions
